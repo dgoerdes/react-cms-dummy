@@ -1,0 +1,21 @@
+.c-navigation {
+    display: inline-block;
+}
+
+.c-navigation__list {
+    padding: 0;
+    list-style: none;
+}
+
+.c-navigation__item {
+    display: inline-block;
+}
+
+.c-navigation__item a {
+    color: #61DAFB;
+    text-decoration: none;
+}
+
+.c-navigation__item + .c-navigation__item {
+    margin-left: 20px;
+}

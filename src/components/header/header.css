@@ -1,0 +1,20 @@
+.c-header {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #222;
+}
+
+.c-header__container {
+    display: flex;
+    align-items: center;
+}
+
+.c-header__logo {
+    animation: app-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+@keyframes app-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
